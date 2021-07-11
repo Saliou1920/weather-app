@@ -51,7 +51,40 @@ h3 {
 .degres {
   font-family: "Bree Serif", serif;
 }
-
+.wind,
+.description {
+  flex-basis: 100%;
+}
 .wind {
   font-size: 0.8rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .city-image {
+    height: 30%;
+  }
+  .container {
+    max-width: 12450px;
+  }
+  .temperature {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+  }
+
+  .forecast {
+    display: flex;
+    padding-top: 5%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .forecast-item {
+    width: 150px;
+    padding: 2% 3%;
+  }
 }

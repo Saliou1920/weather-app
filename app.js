@@ -1,4 +1,4 @@
-const apiUrl = "https://goweather.herokuapp.com/weather/mbour";
+const apiUrl = "https://goweather.herokuapp.com/weather/rufisque";
 const description = document.getElementById('description');
 const degres = document.getElementById('degres');
 const wind = document.getElementById('wind');
