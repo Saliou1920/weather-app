@@ -1,15 +1,23 @@
-const apiUrl = "https://goweather.herokuapp.com/weather/rufisque";
+const apiUrl = "https://goweather.herokuapp.com/weather";
 const description = document.getElementById('description');
 const degres = document.getElementById('degres');
 const wind = document.getElementById('wind');
 const day = document.querySelectorAll('.date');
 const temp = document.querySelectorAll('.degres-1');
+const title = document.getElementById('title-city');
+let me;
 
-getData();
-async function getData() {
+input.addEventListener('change', handleChange);
+function handleChange(e) {
+    // console.log(e.target.value);
+    me = e.target.value;
+    getData(me);
+}
+
+async function getData(city) {
     try {
         
-        const response = await fetch(apiUrl);
+        const response = await fetch(`${apiUrl}/${city}`);
         const data = await response.json();
         console.log(data);
         description.innerText = data.description;
