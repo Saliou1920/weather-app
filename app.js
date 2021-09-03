@@ -5,13 +5,11 @@ const wind = document.getElementById('wind');
 const day = document.querySelectorAll('.date');
 const temp = document.querySelectorAll('.degres-1');
 const title = document.getElementById('title-city');
-let me;
 
 input.addEventListener('change', handleChange);
 function handleChange(e) {
-    // console.log(e.target.value);
-    me = e.target.value;
-    getData(me);
+    let city = e.target.value;
+    getData(city);
 }
 
 async function getData(city) {
@@ -19,15 +17,12 @@ async function getData(city) {
         
         const response = await fetch(`${apiUrl}/${city}`);
         const data = await response.json();
-        console.log(data);
         description.innerText = data.description;
         degres.innerText = data.temperature;
         wind.innerText = data.wind;
         
         //Get date forecast
         for (let i = 0; i < 3; i++) {
-            console.log(day[i]);
-            console.log(getDate(data, i));
             day[i].innerText = await getDate(data, i);
         }
         // Get temperature
