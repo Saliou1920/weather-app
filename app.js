@@ -4,6 +4,7 @@ const degres = document.getElementById('degres');
 const wind = document.getElementById('wind');
 const day = document.querySelectorAll('.date');
 const temp = document.querySelectorAll('.degres-1');
+const input = document.querySelector("input");
 const title = document.getElementById('title-city');
 
 input.addEventListener('change', handleChange);
