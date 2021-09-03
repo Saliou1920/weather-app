@@ -5,6 +5,11 @@ body {
   background-color: #3edbf0;
   position: relative;
 }
+input {
+  width: 80%;
+  margin: 10%;
+  height: 2.5em;
+}
 .container {
   text-align: center;
   max-width: 768px;
@@ -61,6 +66,10 @@ h3 {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  input {
+    width: 30%;
+    margin: 3%;
+  }
   .city-image {
     height: 30%;
   }
@@ -72,7 +81,7 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 20%;
+    padding-top: 15%;
   }
 
   .forecast {
