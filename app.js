@@ -21,7 +21,8 @@ async function getData(city) {
         description.innerText = data.description;
         degres.innerText = data.temperature;
         wind.innerText = data.wind;
-        
+        title.innerText = city;
+
         //Get date forecast
         for (let i = 0; i < 3; i++) {
             day[i].innerText = await getDate(data, i);
