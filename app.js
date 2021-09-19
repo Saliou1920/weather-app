@@ -13,6 +13,7 @@ function handleChange(e) {
     getData(city);
 }
 
+// fetching api
 async function getData(city) {
     try {
         
