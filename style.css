@@ -11,8 +11,12 @@ input {
   height: 2.5em;
 }
 .container {
-  text-align: center;
-  max-width: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+  width: 50%;
   color: #0a1931;
 }
 h2,
@@ -23,13 +27,13 @@ h3 {
 .title-city {
   text-align: left;
 }
-.city-image {
+/* .city-image {
   position: absolute;
   height: 45%;
   width: 100%;
   background: url("images/rufisque.jpg") no-repeat center;
   border-radius: 2%;
-}
+} */
 
 .temperature {
   padding-top: 80%;
