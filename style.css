@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 body {
-  background-color: #3edbf0;
+  background-color: #e2ece2;
   position: relative;
 }
 input {
@@ -18,7 +18,7 @@ input {
   width: 50%;
   margin: 10% 0 0 -30%;
   color: #0a1931;
-  background-image: url("https://images.unsplash.com/photo-1572966101025-e199cab72196?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80");
+  background-image: url("https://images.unsplash.com/photo-1596628525676-e7ab28fcc866?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
   padding: 3% 5%;
   border-radius: 2%;
 }
@@ -46,7 +46,7 @@ h3 {
 }
 
 .uil-cloud {
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
 }
 
@@ -59,13 +59,16 @@ h3 {
 
 .degres {
   font-family: "Bree Serif", serif;
+  color: #f3efcc;
 }
 .wind,
 .description {
   flex-basis: 100%;
 }
 .wind {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ece7b4;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
