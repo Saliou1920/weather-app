@@ -18,8 +18,7 @@ input {
   width: 50%;
   margin: 10% 0 0 -30%;
   color: #0a1931;
-  /* background-color: #158c9c; */
-  background-image: url("https://images.unsplash.com/photo-1563305641-806e131a4262?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
+  background-image: url("https://images.unsplash.com/photo-1572966101025-e199cab72196?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80");
   padding: 3% 5%;
   border-radius: 2%;
 }
