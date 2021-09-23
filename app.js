@@ -7,6 +7,9 @@ const temp = document.querySelectorAll('.degres-1');
 const input = document.querySelector("input");
 const title = document.getElementById('title-city');
 
+window.addEventListener('load', () => {
+    getData();
+});
 input.addEventListener('change', handleChange);
 function handleChange(e) {
     let city = e.target.value;
@@ -14,7 +17,7 @@ function handleChange(e) {
 }
 
 // fetching api
-async function getData(city) {
+async function getData(city = 'Dakar') {
     try {
         
         const response = await fetch(`${apiUrl}/${city}`);
