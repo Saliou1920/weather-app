@@ -18,7 +18,8 @@ input {
   width: 50%;
   margin: 10% 0 0 -30%;
   color: #0a1931;
-  background-color: #158c9c;
+  /* background-color: #158c9c; */
+  background-image: url("https://images.unsplash.com/photo-1563305641-806e131a4262?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
   padding: 3% 5%;
   border-radius: 2%;
 }
@@ -42,7 +43,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-top: 7%;
-  gap: 5px;
+  gap: 10px;
 }
 
 .uil-cloud {
