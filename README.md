@@ -20,7 +20,7 @@ This is a simple weather app built using goweather API.
 ### Screenshot 💻
 
 <p align="center">
-  <img src="images/app.png" alt="App"/>
+  <img src="images/weather.png" alt="App"/>
 </p>
 
 ### Built with 🧰
