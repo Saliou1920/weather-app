@@ -22,9 +22,13 @@ input {
   padding: 3% 5%;
   border-radius: 2%;
 }
+h1 {
+  color: white;
+}
 h2,
 h3 {
   font-family: "Otomanopee One", sans-serif;
+  color: white;
 }
 
 .header {
@@ -51,7 +55,7 @@ h3 {
 }
 
 .forecast-item {
-  background-color: #c0fefc;
+  background-color: #7fc8a9;
   /* opacity: 0.6; */
   border-radius: 7%;
   padding: 7% 10%;
@@ -59,7 +63,7 @@ h3 {
 
 .degres {
   font-family: "Bree Serif", serif;
-  color: #f3efcc;
+  color: white;
 }
 .wind,
 .description {
@@ -68,7 +72,7 @@ h3 {
 .wind {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #ece7b4;
+  color: white;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
