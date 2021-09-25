@@ -3,17 +3,23 @@
 
 body {
   font-family: "Otomanopee One", sans-serif;
-  background-color: #e2ece2;
+  background-color: #f1f1d1;
   position: relative;
 }
 input {
   width: 130px !important;
   height: 27px;
-  border: 2px solid #7fc8a9;
+  border: 2px solid #003638;
   border-radius: 12px;
 }
 input:focus {
   outline: none;
+}
+h1,
+h2,
+h3,
+p {
+  color: #f3f2c9 !important;
 }
 .container {
   position: absolute;
@@ -21,18 +27,11 @@ input:focus {
   left: 50%;
   text-align: center;
   width: 50%;
-  margin: 10% 0 0 -30%;
+  margin: 7% 0 0 -30%;
   color: #0a1931;
   background-image: url("https://images.unsplash.com/photo-1596628525676-e7ab28fcc866?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
   padding: 3% 5%;
   border-radius: 2%;
-}
-
-h1,
-h2,
-h3,
-p {
-  color: #f3f2c9 !important;
 }
 .header {
   display: flex;
@@ -44,6 +43,9 @@ p {
 }
 .temperature {
   padding-top: 5%;
+}
+.temperature h2 {
+  font-size: 2em;
 }
 .forecast {
   display: grid;
@@ -65,22 +67,19 @@ p {
 .degres,
 .date {
   color: #003638;
-}
-.date {
-  font-size: 1.3em;
-}
-.degres {
   font-size: 1.3em;
 }
 .wind,
 .description {
   flex-basis: 100%;
 }
+.description {
+  font-size: 1.6em;
+}
 .wind {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: bold;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 }
