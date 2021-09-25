@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 body {
+  font-family: "Otomanopee One", sans-serif;
   background-color: #e2ece2;
   position: relative;
 }
@@ -26,13 +27,13 @@ input:focus {
   padding: 3% 5%;
   border-radius: 2%;
 }
+
 h1,
 h2,
-h3 {
-  font-family: "Otomanopee One", sans-serif;
-  color: white;
+h3,
+p {
+  color: #f3f2c9 !important;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -52,8 +53,8 @@ h3 {
 }
 
 .uil-cloud {
-  font-size: 2.5em;
-  color: white;
+  font-size: 50px;
+  color: #53b8bb;
 }
 
 .forecast-item {
@@ -61,18 +62,15 @@ h3 {
   border-radius: 7%;
   padding: 7% 10%;
 }
+.degres,
 .date {
   color: #003638;
 }
-h1,
-h2,
-h3,
-p {
-  color: #f3f2c9 !important;
+.date {
+  font-size: 1.3em;
 }
 .degres {
-  font-family: "Bree Serif", serif;
-  color: #003638;
+  font-size: 1.3em;
 }
 .wind,
 .description {
@@ -81,34 +79,8 @@ p {
 .wind {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  /* input {
-    width: 30%;
-    margin: 3%;
-  }
-
-  .temperature {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15%;
-  }
-
-  .forecast {
-    display: flex;
-    padding-top: 5%;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .forecast-item {
-    width: 150px;
-    padding: 2% 3%;
-  } */
 }
