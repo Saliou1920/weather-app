@@ -10,6 +10,7 @@ let welcomeMessage = document.getElementById('welcome');
 window.addEventListener('load', () => {
     getData();
 });
+
 input.addEventListener('change', handleChange);
 function handleChange(e) {
     let city = e.target.value;
