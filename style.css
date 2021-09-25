@@ -37,6 +37,9 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.title-city {
+  text-transform: capitalize;
+}
 .location {
   float: right;
   width: 250px;
