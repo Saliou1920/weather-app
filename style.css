@@ -7,8 +7,12 @@ body {
 }
 input {
   width: 130px !important;
-  margin: 10%;
-  height: 2em;
+  height: 27px;
+  border: 2px solid #7fc8a9;
+  border-radius: 12px;
+}
+input:focus {
+  outline: none;
 }
 .container {
   position: absolute;
