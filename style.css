@@ -84,5 +84,10 @@ p {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 992px) {
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 25% 0 0 0;
+    left: 0;
+  }
 }
