@@ -26,9 +26,7 @@ input:focus {
   padding: 3% 5%;
   border-radius: 2%;
 }
-h1 {
-  color: white;
-}
+h1,
 h2,
 h3 {
   font-family: "Otomanopee One", sans-serif;
@@ -59,15 +57,22 @@ h3 {
 }
 
 .forecast-item {
-  background-color: #7fc8a9;
-  /* opacity: 0.6; */
+  background-color: #f3f2c9;
   border-radius: 7%;
   padding: 7% 10%;
 }
-
+.date {
+  color: #003638;
+}
+h1,
+h2,
+h3,
+p {
+  color: #f3f2c9 !important;
+}
 .degres {
   font-family: "Bree Serif", serif;
-  color: white;
+  color: #003638;
 }
 .wind,
 .description {
