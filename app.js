@@ -6,7 +6,7 @@ const day = document.querySelectorAll('.date');
 const temp = document.querySelectorAll('.degres-1');
 const input = document.querySelector("input");
 const title = document.getElementById('uil');
-
+let welcomeMessage = document.getElementById('welcome');
 window.addEventListener('load', () => {
     getData();
 });
@@ -51,4 +51,15 @@ async function getDate(data, i) {
 
 async function getTemperature(data, i) {
     return data.forecast[i].temperature;
+}
+// animate welcome message
+let i = 0;
+typing();
+function typing() {
+    let text = "Hi Weather !";
+    if (i < text.length) {
+        welcomeMessage.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing, 70);
+    }
 }
