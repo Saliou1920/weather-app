@@ -90,4 +90,11 @@ p {
   .container {
     width: 95%;
   }
+  .location {
+    float: right;
+    width: 130px;
+  }
+  .forecast {
+    gap: 5px;
+  }
 }
