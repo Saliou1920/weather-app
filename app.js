@@ -1,3 +1,5 @@
+import {loader} from "./loader.js";
+
 const apiUrl = "https://goweather.herokuapp.com/weather";
 const description = document.getElementById('description');
 const degres = document.getElementById('degres');
@@ -7,9 +9,13 @@ const temp = document.querySelectorAll('.degres-1');
 const input = document.querySelector("input");
 const title = document.getElementById('uil');
 let welcomeMessage = document.getElementById('welcome');
+
+
 window.addEventListener('load', () => {
+    loader();
     getData();
 });
+
 
 input.addEventListener('change', handleChange);
 function handleChange(e) {
