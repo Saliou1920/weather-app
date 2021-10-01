@@ -30,7 +30,7 @@ async function getData(city = 'Dakar') {
         const response = await fetch(`${apiUrl}/${city}`);
         const data = await response.json();
         description.innerText = data.description;
-        degres.innerText = data.temperature;
+        degres.innerText = data.temperature.charAt(0) == '+' ? data.temperature.slice(1,6) : data.temperature;
         wind.innerText = data.wind;
         title.innerText = city;
 
@@ -57,7 +57,10 @@ async function getDate(data, i) {
 }
 
 async function getTemperature(data, i) {
-    return data.forecast[i].temperature;
+    return (
+        data.forecast[i].temperature.charAt(0) == '+' ? 
+        data.temperature.slice(1,6) : data.temperature
+        );
 }
 // animate welcome message
 let i = 0;
