@@ -59,7 +59,7 @@ async function getDate(data, i) {
 async function getTemperature(data, i) {
     return (
         data.forecast[i].temperature.charAt(0) == '+' ? 
-        data.temperature.slice(1,6) : data.temperature
+        data.forecast[i].temperature.slice(1,6) : data.forecast[i].temperature
         );
 }
 // animate welcome message
