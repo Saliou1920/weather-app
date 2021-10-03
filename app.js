@@ -66,7 +66,7 @@ async function getTemperature(data, i) {
 let i = 0;
 typing();
 function typing() {
-    let text = "Hi Weather !";
+    let text = "As-salamu alaykum 👋";
     if (i < text.length) {
         welcomeMessage.innerHTML += text.charAt(i);
         i++;
